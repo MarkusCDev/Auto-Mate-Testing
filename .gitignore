@@ -12,7 +12,8 @@ dist
 dist-ssr
 *.local
 .env
-.venv
+myvenv
+serviceAccountKey.json
 
 # Editor directories and files
 .vscode/*
@@ -24,7 +25,9 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+
+# Testing
+coverage/
 /test-results/
 /playwright-report/
 /playwright/.cache/
-
